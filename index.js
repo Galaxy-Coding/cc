@@ -6,7 +6,7 @@ const app = express();
 
 app.get("/", async (req, res) => {
   var gif = new TextOnGif({
-    file_path:  path.join(__dirname, "explosion.gif")
+    file_path:  path.join(__dirname, "711A8D87-3B7D-4EDA-9F42-F8B80DD4676D.gif")
   });
   var buffer = await gif.textOnGif({
     text: "text on gif sucks",
